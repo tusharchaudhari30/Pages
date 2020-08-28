@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="/css/tailwind.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/pages.css" type="text/css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="https://kit.fontawesome.com/af6348e28f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/header@latest"></script>
+    <!-- Header -->
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/simple-image@latest"></script>
+    <!-- Image -->
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/delimiter@latest"></script>
+    <!-- Delimiter -->
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/list@latest"></script>
+    <!-- List -->
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/checklist@latest"></script>
+    <!-- Checklist -->
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/quote@latest"></script>
+    <!-- Quote -->
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/code@latest"></script>
+    <!-- Code -->
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/embed@latest"></script>
+    <!-- Embed -->
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/table@latest"></script>
+    <!-- Table -->
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/link@latest"></script>
+    <!-- Link -->
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/warning@latest"></script>
+    <!-- Warning -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/marker@latest"></script>
+    <!-- Marker -->
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/inline-code@latest"></script>
+    <!-- Inline Code -->
+</head>
+
+<body>
+    <div class="flex min-h-screen">
+        <div class="h-full lg:w-56 font-sans font-medium fixed z-10 bgsidebar hidden lg:block">
+            <div class="h-20 font-serif lg:block font-bold">
+                <div class="text-center text-3xl p-5 text-white">
+                    PAGE
+                </div>
+            </div>
+            <div class="h-auto mt-2 text-base">
+                <div>
+                    <div>
+                        <div class="text-gray-200">
+                            <a href="/home.html">
+                                <div class="p-3 h-12 navs z-20">
+                                    <div class="float-left pl-3">
+                                        <i class="fa fa-home px-2" aria-hidden="true"></i>Home
+                                    </div>
+                                    <span class="float-right"></span>
+                                </div>
+                            </a>
+                            <div class="collapsible-wrapper collapsed">
+                                <ul class="navlist collapsible w-full"></ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="text-gray-200">
+                            <a href="/pageeditor.html">
+                                <div class="p-3 h-12 navs z-20">
+                                    <div class="float-left pl-3">
+                                        <i class="fas fa-folder-open px-2" aria-hidden="true"></i>Projects
+                                    </div>
+                                    <span class="float-right"></span>
+                                </div>
+                            </a>
+                            <div class="collapsible-wrapper collapsed">
+                                <ul class="navlist collapsible w-full"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute bottom-0">
+                <div class="flex items-center p-5 text-gray-300 font-normal hover:text-gray-100">
+                    <img class="w-10 h-10 rounded-full mr-4 shadow-xs" src="tushar.webp" alt="" />
+                    <div class="text-base">
+                        <p class="leading-none">Tushar Chaudhari</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full lg:ml-56 mt-20 lg:mt-0">
+            <div class="m-5">
+                <div class="text-lg text-gray-800 font-semibold cursor-pointer text-left">
+                    Path / to / Directory
+                </div>
+                <button
+                    class="text-gray-700 font-semibold py-2 px-4 rounded float-right mr-5 focus:outline-none hoverbg">
+                    Restriction
+                </button>
+                <div class="mt-10 text-3xl text-gray-800 text-center">Filename</div>
+            </div>
+            <div class="flex justify-center flex-wrap">
+                <div class="mb-56 w-2/3" id="preview"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/scriptpreview.js"></script>
+</body>
+
+</html>

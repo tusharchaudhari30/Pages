@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="/css/tailwind.min.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/pages.css" type="text/css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <script src="https://kit.fontawesome.com/af6348e28f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="flex min-h-screen">
+    <div class="h-full lg:w-56 font-sans font-medium fixed z-10 bgsidebar hidden lg:block">
+      <div class="h-20 font-serif lg:block font-bold">
+        <div class="text-center text-3xl p-5 text-white">
+          PAGE
+        </div>
+      </div>
+      <div class="h-auto mt-2 text-base">
+        <div>
+          <div>
+            <div class="text-gray-200">
+              <a href="/home.html">
+                <div class="p-3 h-12 navs z-20">
+                  <div class="float-left pl-3">
+                    <i class="fa fa-home px-2" aria-hidden="true"></i>Home
+                  </div>
+                  <span class="float-right"></span>
+                </div>
+              </a>
+              <div class="collapsible-wrapper collapsed">
+                <ul class="navlist collapsible w-full"></ul>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="text-gray-200">
+              <a href="/pageeditor.html">
+                <div class="p-3 h-12 navs z-20">
+                  <div class="float-left pl-3">
+                    <i class="fas fa-folder-open px-2" aria-hidden="true"></i>Projects
+                  </div>
+                  <span class="float-right"></span>
+                </div>
+              </a>
+              <div class="collapsible-wrapper collapsed">
+                <ul class="navlist collapsible w-full"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="absolute bottom-0">
+        <div class="flex items-center p-5 text-gray-300 font-normal hover:text-gray-100">
+          <img class="w-10 h-10 rounded-full mr-4 shadow-xs" src="tushar.webp" alt="" />
+          <div class="text-base">
+            <p class="leading-none">Tushar Chaudhari</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-full lg:ml-56 mt-20 lg:mt-0">
+      <div class="flex-wrap flex text-center">
+        <div class="lg:w-1/4 md:w-1/3 w-full">
+          <div class="m-5 border border-gray-500">
+            <p class="p-5 text-gray-800 font-medium font-sans text-2xl hoverbg cursor-pointer">
+              Project Name
+            </p>
+            <div class="flex-wrap flex justify-center">
+              <p class="p-3 text-gray-800 font-medium font-sans text-xl">
+                Users
+              </p>
+              <div class="flex">
+                <div class="p-2 hidden sm:block">
+                  <img alt="userprofile" class="h-10 rounded-full shadow" src="/tushar.webp" />
+                </div>
+
+                <div class="p-2">
+                  <div
+                    class="h-10 rounded-full text-blue-700 shadow border-2 border-blue-300 hover:bg-blue-600 duration-300 hover:text-gray-200"
+                    style="cursor: pointer;">
+                    <i class="fa fa-plus m-3" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="overflow-hidden rounded border-b border-gray-200 m-2">
+              <table class="min-w-full bg-white">
+                <thead class="bg-blue-700 text-white">
+                  <tr>
+                    <th class="w-full text-center py-2 px-4 font-semibold">
+                      Pages
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="text-gray-700">
+                  <tr>
+                    <td class="text-center py-2 px-4">Chapter 1</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center py-2 px-4">Chapter 2</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center py-2 px-4">Chapter 3</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/3 w-full">
+          <div class="m-5 border border-gray-500">
+            <p class="p-5 text-gray-800 font-medium font-sans text-2xl hoverbg cursor-pointer">
+              Project Name
+            </p>
+            <div class="flex-wrap flex justify-center">
+              <p class="p-3 text-gray-800 font-medium font-sans text-xl">
+                Users
+              </p>
+              <div class="flex">
+                <div class="p-2 hidden sm:block">
+                  <img alt="userprofile" class="h-10 rounded-full shadow"
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80" />
+                </div>
+
+                <div class="p-2">
+                  <div
+                    class="h-10 rounded-full text-blue-700 shadow border-2 border-blue-300 hover:bg-blue-600 duration-300 hover:text-gray-200"
+                    style="cursor: pointer;">
+                    <i class="fa fa-plus m-3" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="overflow-hidden rounded border-b border-gray-200 m-2">
+              <table class="min-w-full bg-white">
+                <thead class="bg-blue-700 text-white">
+                  <tr>
+                    <th class="w-full text-center py-2 px-4 font-semibold">
+                      Pages
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="text-gray-700">
+                  <tr>
+                    <td class="text-center py-2 px-4">Chapter 1</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/3 w-full">
+          <div class="m-5 border border-gray-500">
+            <p class="p-5 text-gray-800 font-medium font-sans text-2xl hoverbg cursor-pointer">
+              Project Name
+            </p>
+            <div class="flex-wrap flex justify-center">
+              <p class="p-3 text-gray-800 font-medium font-sans text-xl">
+                Users
+              </p>
+              <div class="flex">
+                <div class="p-2 hidden sm:block">
+                  <img alt="userprofile" class="h-10 rounded-full shadow" src="/tushar.webp" />
+                </div>
+                <div class="p-2 hidden sm:block">
+                  <img alt="userprofile" class="h-10 rounded-full shadow"
+                    src="https://images.unsplash.com/photo-1522609925277-66fea332c575?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&h=160&w=160&q=80" />
+                </div>
+
+                <div class="p-2">
+                  <div
+                    class="h-10 rounded-full text-blue-700 shadow border-2 border-blue-300 hover:bg-blue-600 duration-300 hover:text-gray-200"
+                    style="cursor: pointer;">
+                    <i class="fa fa-plus m-3" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="overflow-hidden rounded border-b border-gray-200 m-2">
+              <table class="min-w-full bg-white">
+                <thead class="bg-blue-700 text-white">
+                  <tr>
+                    <th class="w-full text-center py-2 px-4 font-semibold">
+                      Pages
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="text-gray-700">
+                  <tr>
+                    <td class="text-center py-2 px-4">Chapter 1</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center py-2 px-4">Chapter 2</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/3 w-full">
+          <div class="m-5 border border-gray-500">
+            <p class="p-5 text-gray-800 font-medium font-sans text-2xl hoverbg cursor-pointer">
+              Project Name
+            </p>
+            <div class="flex-wrap flex justify-center">
+              <p class="p-3 text-gray-800 font-medium font-sans text-xl">
+                Users
+              </p>
+              <div class="flex">
+                <div class="p-2 hidden sm:block">
+                  <img alt="userprofile" class="h-10 rounded-full shadow"
+                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80" />
+                </div>
+
+                <div class="p-2">
+                  <div
+                    class="h-10 rounded-full text-blue-700 shadow border-2 border-blue-300 hover:bg-blue-600 duration-300 hover:text-gray-200"
+                    style="cursor: pointer;">
+                    <i class="fa fa-plus m-3" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="overflow-hidden rounded border-b border-gray-200 m-2">
+              <table class="min-w-full bg-white">
+                <thead class="bg-blue-700 text-white">
+                  <tr>
+                    <th class="w-full text-center py-2 px-4 font-semibold">
+                      Pages
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="text-gray-700">
+                  <tr>
+                    <td class="text-center py-2 px-4">Chapter 1</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center py-2 px-4">Chapter 2</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center py-2 px-4">Chapter 3</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mx-auto px-4 sm:px-8">
+        <div class="py-8">
+          <div>
+            <h2 class="text-2xl font-semibold leading-tight">Pages</h2>
+          </div>
+          <div class="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
+            <div class="inline-block min-w-full shadow rounded-lg overflow-hidden">
+              <table class="min-w-full leading-normal">
+                <thead>
+                  <tr>
+                    <th
+                      class="px-5 py-3 border-b-2 border-gray-200 bg-blue-700 text-left text-xs font-semibold text-gray-200 uppercase tracking-wider">
+                      Page
+                    </th>
+                    <th
+                      class="px-5 pl-10 py-3 border-b-2 border-gray-200 bg-blue-700 text-left text-xs font-semibold text-gray-200 uppercase tracking-wider">
+                      Last Modified by
+                    </th>
+                    <th
+                      class="px-5 py-3 border-b-2 border-gray-200 bg-blue-700 text-left text-xs font-semibold text-gray-200 uppercase tracking-wider">
+                      Modified At
+                    </th>
+                    <th
+                      class="px-5 pl-12 py-3 border-b-2 border-gray-200 bg-blue-700 text-left text-xs font-semibold text-gray-200 uppercase tracking-wider">
+                      Status
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                      <p class="text-gray-900 whitespace-no-wrap">
+                        Chapter 1
+                      </p>
+                    </td>
+                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                      <div class="flex items-center">
+                        <div class="flex-shrink-0 w-10 h-10">
+                          <img class="w-full h-full rounded-full"
+                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80"
+                            alt="" />
+                        </div>
+                        <div class="ml-3">
+                          <p class="text-gray-900 whitespace-no-wrap">
+                            Vera Carpenter
+                          </p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                      <p class="text-gray-900 whitespace-no-wrap">
+                        Jan 21, 2020
+                      </p>
+                    </td>
+                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                      <span class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
+                        <span aria-hidden class="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
+                        <span class="relative">Link Shared</span>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                      <p class="text-gray-900 whitespace-no-wrap">
+                        Chapter 2
+                      </p>
+                    </td>
+                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                      <div class="flex items-center">
+                        <div class="flex-shrink-0 w-10 h-10">
+                          <img class="w-full h-full rounded-full"
+                            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80"
+                            alt="" />
+                        </div>
+                        <div class="ml-3">
+                          <p class="text-gray-900 whitespace-no-wrap">
+                            Blake Bowman
+                          </p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                      <p class="text-gray-900 whitespace-no-wrap">
+                        Jan 01, 2020
+                      </p>
+                    </td>
+                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                      <span class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
+                        <span aria-hidden class="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
+                        <span class="relative">Link Shared</span>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                      <p class="text-gray-900 whitespace-no-wrap">
+                        Chapter 3
+                      </p>
+                    </td>
+                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                      <div class="flex items-center">
+                        <div class="flex-shrink-0 w-10 h-10">
+                          <img class="w-full h-full rounded-full"
+                            src="https://images.unsplash.com/photo-1540845511934-7721dd7adec3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80"
+                            alt="" />
+                        </div>
+                        <div class="ml-3">
+                          <p class="text-gray-900 whitespace-no-wrap">
+                            Dana Moore
+                          </p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                      <p class="text-gray-900 whitespace-no-wrap">
+                        Jan 10, 2020
+                      </p>
+                    </td>
+                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                      <span class="relative inline-block px-3 py-1 font-semibold text-orange-900 leading-tight">
+                        <span aria-hidden class="absolute inset-0 bg-orange-200 opacity-50 rounded-full"></span>
+                        <span class="relative">Restricted</span>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr class=" hoverbg">
+                    <td class="px-5 py-5 text-sm">
+                      <p class="text-gray-900 whitespace-no-wrap">
+                        Chapter 4
+                      </p>
+                    </td>
+                    <td class="px-5 py-5 text-sm">
+                      <div class="flex items-center">
+                        <div class="flex-shrink-0 w-10 h-10">
+                          <img class="w-full h-full rounded-full"
+                            src="https://images.unsplash.com/photo-1522609925277-66fea332c575?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&h=160&w=160&q=80"
+                            alt="" />
+                        </div>
+                        <div class="ml-3">
+                          <p class="text-gray-900 whitespace-no-wrap">
+                            Alonzo Cox
+                          </p>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="px-5 py-5 text-sm">
+                      <p class="text-gray-900 whitespace-no-wrap">
+                        Jan 18, 2020
+                      </p>
+                    </td>
+                    <td class="px-5 py-5 text-sm">
+                      <span class="relative inline-block px-3 py-1 font-semibold text-red-900 leading-tight">
+                        <span aria-hidden class="absolute inset-0 bg-red-200 opacity-50 rounded-full"></span>
+                        <span class="relative">You Only</span>
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="px-5 py-5 bg-white border-t flex flex-col xs:flex-row items-center xs:justify-between">
+                <span class="text-xs xs:text-sm text-gray-900">
+                  Showing 1 to 4 of 50 Entries
+                </span>
+                <div class="inline-flex mt-2 xs:mt-0">
+                  <button class="text-sm bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-l">
+                    Prev
+                  </button>
+                  <button class="text-sm bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-r">
+                    Next
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
